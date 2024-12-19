@@ -1,0 +1,36 @@
+/* Floor.module.css */
+
+.floor {
+    margin: 15px 0;
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .room {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    line-height: 60px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .available {
+    background-color: #90ee90; 
+  }
+  
+  .booked {
+    background-color: #ff6961; 
+  }
+  

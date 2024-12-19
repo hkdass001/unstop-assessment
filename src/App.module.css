@@ -1,0 +1,12 @@
+
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.floors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

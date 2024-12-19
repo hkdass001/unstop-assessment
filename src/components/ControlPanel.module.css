@@ -1,0 +1,71 @@
+.controlPanel {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .bookingSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .bookingSection label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .bookingSection input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .bookingSection button {
+    padding: 5px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bookingSection button:hover {
+    background-color: #45a049;
+  }
+  
+  .actionButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .actionButtons button {
+    padding: 5px 10px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .actionButtons button:hover {
+    background-color: #007bb5;
+  }
+  
+  .actionButtons button:last-child {
+    background-color: #f44336;
+  }
+  
+  .actionButtons button:last-child:hover {
+    background-color: #da190b;
+  }
+  
